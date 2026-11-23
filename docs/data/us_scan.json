@@ -14642,17 +14642,13 @@
             "price": 66.5
           },
           {
-            "date": "2026-07-08",
-            "price": 66.5
-          },
-          {
-            "date": "2026-07-15",
+            "date": "2026-07-10",
             "price": 66.5
           }
         ],
-        "n_touches": 3,
+        "n_touches": 2,
         "first_touch": "2026-06-30",
-        "last_touch": "2026-07-15",
+        "last_touch": "2026-07-10",
         "breaks_between": 0,
         "worst_between": 66.5,
         "breaks_after": 0,
@@ -14712,6 +14708,35 @@
       },
       {
         "dir": "R",
+        "lo": 61.073,
+        "hi": 61.073,
+        "width": 0.0,
+        "atr_max": 0.4416,
+        "touches": [
+          {
+            "date": "2024-12-26",
+            "price": 61.073
+          },
+          {
+            "date": "2025-01-03",
+            "price": 61.073
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2024-12-26",
+        "last_touch": "2025-01-03",
+        "breaks_between": 0,
+        "worst_between": 61.073001861572266,
+        "breaks_after": 388,
+        "worst_after": 66.5,
+        "weekly_same_price": false,
+        "distance": 0.020418,
+        "position": "crossed_above",
+        "flipped": true,
+        "crossed_edge": false
+      },
+      {
+        "dir": "R",
         "lo": 60.85,
         "hi": 60.85,
         "width": 0.0,
@@ -14743,35 +14768,6 @@
         "worst_after": 66.5,
         "weekly_same_price": false,
         "distance": 0.024158,
-        "position": "crossed_above",
-        "flipped": true,
-        "crossed_edge": false
-      },
-      {
-        "dir": "R",
-        "lo": 59.75,
-        "hi": 59.75,
-        "width": 0.0,
-        "atr_max": 0.0964,
-        "touches": [
-          {
-            "date": "2025-07-21",
-            "price": 59.75
-          },
-          {
-            "date": "2025-07-28",
-            "price": 59.75
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2025-07-21",
-        "last_touch": "2025-07-28",
-        "breaks_between": 0,
-        "worst_between": 59.75,
-        "breaks_after": 318,
-        "worst_after": 66.5,
-        "weekly_same_price": false,
-        "distance": 0.043013,
         "position": "crossed_above",
         "flipped": true,
         "crossed_edge": false
@@ -14841,20 +14837,24 @@
         "lo": 62.95,
         "hi": 62.95,
         "width": 0.0,
-        "atr_max": 2.1079,
+        "atr_max": 2.2529,
         "touches": [
           {
-            "date": "2025-05-05",
+            "date": "2025-05-01",
             "price": 62.95
           },
           {
-            "date": "2025-05-12",
+            "date": "2025-05-08",
+            "price": 62.95
+          },
+          {
+            "date": "2025-05-15",
             "price": 62.95
           }
         ],
-        "n_touches": 2,
-        "first_touch": "2025-05-05",
-        "last_touch": "2025-05-12",
+        "n_touches": 3,
+        "first_touch": "2025-05-01",
+        "last_touch": "2025-05-15",
         "breaks_between": 0,
         "worst_between": 62.95000076293945,
         "breaks_after": 179,
