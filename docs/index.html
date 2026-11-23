@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>支撑压力区扫描 · 支压位统计与危险区</title>
+<style>
+:root{--blue:#2563eb;--orange:#d97706;--grey:#6b7280;--border:#d8dde3;--bg:#f7f8fa}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:#1f2937}
+header{background:#fff;border-bottom:1px solid var(--border);padding:16px 20px}
+h1{font-size:20px;margin:0 0 6px}h2{font-size:16px;margin:18px 0 8px}
+p{line-height:1.6}.small{font-size:13px;color:#4b5563}
+.banner{background:#eef2ff;border:1px solid #c7d2fe;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:14px;line-height:1.8}
+.banner.stale{background:#fef2f2;border-color:#fecaca}
+.banner .ok{color:#047857;font-weight:600}.banner .bad{color:#b91c1c;font-weight:600}
+button{cursor:pointer;border:1px solid var(--border);background:#fff;border-radius:6px;padding:7px 14px;font-size:14px}
+button.primary{background:var(--blue);color:#fff;border-color:var(--blue)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.tabs button.on{background:#1f2937;color:#fff;border-color:#1f2937}
+main{max-width:1180px;margin:0 auto;padding:0 16px 40px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0}
+.toolbar input,.toolbar select{padding:7px 10px;font-size:14px;border:1px solid var(--border);border-radius:6px}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:13px}
+th,td{border-bottom:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}
+th{background:#f1f5f9;white-space:nowrap}
+tr.clickable{cursor:pointer}tr.clickable:hover{background:#f8fafc}
+.zone{margin:2px 0}.tag{display:inline-block;font-size:11px;border:1px solid var(--border);border-radius:4px;padding:0 5px;margin-left:4px;color:#4b5563}
+.tag.flip{color:var(--orange);border-color:#fcd34d}.tag.wk{color:var(--blue);border-color:#bfdbfe}
+#detail{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px;margin-top:16px}
+#chart{width:100%;height:420px;display:block}
+.note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px 14px;font-size:13px;line-height:1.7}
+footer{color:#6b7280;font-size:12px;padding:20px;text-align:center}
+</style>
+</head>
+<body>
+<header>
+<h1>支撑压力区扫描</h1>
+<p class="small">只画支撑 / 压力区，不打分、不给概率、不给买卖建议。区是位置参考，不是交易信号。靠近支撑不等于买入信号，靠近压力不等于卖出信号。</p>
+<div class="banner" id="banner">正在加载快照信息……</div>
+<div>
+<button class="primary" id="refreshBtn">手动刷新（重取最新已发布数据）</button>
+<span class="small" id="refreshNote"></span>
+</div>
+<div class="note" style="margin-top:10px">
+<strong>手动刷新说明：</strong>上方按钮只重新拉取本站已发布的数据（带时间戳参数，不用浏览器缓存），并显示快照时间；它不会重新跑扫描。
+要触发新一轮扫描：需登录 GitHub，到仓库 Actions 页 → 工作流 <strong>Daily refresh</strong> → <strong>Run workflow</strong> 手动运行。
+<a id="actionsLink" href="#" target="_blank" rel="noopener">打开 Actions 页</a>
+（每日自动刷新在北京时间工作日约 06:00 运行，即美股与 A 股都收盘后。）
+</div>
+</header>
+<main>
+<h2>分区一 · 支压位统计</h2>
+<div class="tabs" id="marketTabs">
+<button data-market="A" class="on">A 股</button>
+<button data-market="US">美股</button>
+</div>
+<div class="toolbar">
+<input id="search" type="search" placeholder="搜索代码 / 名称">
+<select id="zoneFilter">
+<option value="all">全部</option>
+<option value="valid">有有效区</option>
+<option value="none">无有效区</option>
+<option value="weekly">含日周同价区</option>
+</select>
+<span class="small" id="countText"></span>
+</div>
+<div style="overflow-x:auto">
+<table>
+<thead><tr><th>代码 / 名称</th><th>收盘价</th><th>支撑区（上下沿 · 触碰次数 · 形成日期）</th><th>压力区（同上）</th><th>离最近区距离</th></tr></thead>
+<tbody id="rows"></tbody>
+</table>
+</div>
+
+<h2>分区二 · 危险区</h2>
+<p class="small">进入条件：收盘价在区内（距离 0）或离区沿 ≤3%。一只票可同时进两个细区。危险区是价格贴近区沿的位置提示，不是买卖信号。</p>
+<div class="tabs" id="dangerTabs">
+<button data-danger="support" class="on">支撑危险区</button>
+<button data-danger="resistance">压力危险区</button>
+</div>
+<div style="overflow-x:auto">
+<table>
+<thead><tr><th>代码 / 名称</th><th>收盘价</th><th>贴近的区</th><th>距离</th></tr></thead>
+<tbody id="dangerRows"></tbody>
+</table>
+</div>
+
+<div id="detail" style="display:none">
+<h2 id="detailTitle" style="margin-top:0"></h2>
+<p class="small" id="detailMeta"></p>
+<canvas id="chart" width="1100" height="420"></canvas>
+<p class="small">图例：支撑区蓝色色带（上下沿实线、带内浅色填充）；压力区 / 翻转区橙色色带；第二道及更远支撑灰色虚线。K 线红色为上涨、绿色为下跌；下方为成交量。区数据按冻结规格（摆动点前后各 5 根、区宽 ≤ 触碰时 ATR(14)、≥2 次触碰、破区只看收盘价越过区沿）算出。</p>
+</div>
+</main>
+<footer>数据来源：美股 Yahoo 日 K 与 Nasdaq 市值筛选；A 股腾讯快照与新浪日 K。基准日与校验状态见页顶快照信息。规则全文见仓库冻结规格文件。</footer>
+<script src="app.js?v=1"></script>
+</body>
+</html>
