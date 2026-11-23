@@ -27,6 +27,7 @@ table{width:100%;border-collapse:collapse;background:#fff;font-size:13px}
 th,td{border-bottom:1px solid var(--border);padding:8px;text-align:left;vertical-align:top}
 th{background:#f1f5f9;white-space:nowrap}
 tr.clickable{cursor:pointer}tr.clickable:hover{background:#f8fafc}
+tr.returned{background:#fef3c7}
 .zone{margin:2px 0}.tag{display:inline-block;font-size:11px;border:1px solid var(--border);border-radius:4px;padding:0 5px;margin-left:4px;color:#4b5563}
 .tag.flip{color:var(--orange);border-color:#fcd34d}.tag.wk{color:var(--blue);border-color:#bfdbfe}
 #detail{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px;margin:16px 0;scroll-margin-top:10px}
@@ -65,7 +66,7 @@ footer{color:#6b7280;font-size:12px;padding:20px;text-align:center}
 <div id="detail" style="display:none">
 <div id="detailHead">
 <h2 id="detailTitle"></h2>
-<button id="closeDetail" type="button">关闭 ✕</button>
+<button id="closeDetail" type="button">返回列表 ✕</button>
 </div>
 <p class="small" id="detailMeta"></p>
 <canvas id="chart" width="1100" height="420"></canvas>
@@ -112,6 +113,6 @@ footer{color:#6b7280;font-size:12px;padding:20px;text-align:center}
 </section>
 </main>
 <footer>数据来源：美股 Yahoo 日 K 与 Nasdaq 市值筛选；A 股腾讯快照与新浪日 K。基准日与校验状态见页顶快照信息。规则全文见仓库冻结规格文件。</footer>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

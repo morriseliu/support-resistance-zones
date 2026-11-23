@@ -10,6 +10,13 @@ let curMarket = "A";
 let curDanger = "support";
 let curView = "danger";
 let selected = null;
+let lastRowKey = null;
+
+function findVisibleRow(key) {
+  if (!key) return null;
+  const tbody = curView === "danger" ? $("dangerRows") : $("rows");
+  return tbody ? tbody.querySelector('tr[data-key="' + key + '"]') : null;
+}
 
 function bust(url) {
   const sep = url.includes("?") ? "&" : "?";
@@ -208,6 +215,7 @@ async function showDetail(key) {
   const rec = DATA[market].find((r) => r.symbol === symbol);
   if (!rec) return;
   selected = rec;
+  lastRowKey = key;
   $("detail").style.display = "block";
   $("detailTitle").textContent = rec.symbol + " " + (rec.name || "") + "（" + (market === "A" ? "A 股" : "美股") + "）";
   $("detailMeta").textContent = "收盘价 " + (rec.close === null ? "数据未取到" : rec.close.toFixed(2)) + " · 快照日 " + (MANIFEST ? (market === "A" ? MANIFEST.snapshot_date_a : MANIFEST.snapshot_date_us) : "—");
@@ -262,7 +270,7 @@ document.querySelectorAll("#marketTabs button").forEach((b) => {
   b.addEventListener("click", () => {
     document.querySelectorAll("#marketTabs button").forEach((x) => x.classList.remove("on"));
     b.classList.add("on"); curMarket = b.getAttribute("data-market");
-    $("detail").style.display = "none"; selected = null;
+    $("detail").style.display = "none"; selected = null; lastRowKey = null;
     renderTable(); renderDanger();
   });
 });
@@ -274,6 +282,13 @@ document.querySelectorAll("#viewTabs button").forEach((b) => {
 });
 $("closeDetail").addEventListener("click", () => {
   $("detail").style.display = "none"; selected = null;
+  // 回到刚才点的那一行（居中并短暂高亮），不留在页面最上面，不用重新往下滑。
+  const tr = findVisibleRow(lastRowKey);
+  if (tr) {
+    tr.scrollIntoView({ behavior: "auto", block: "center" });
+    tr.classList.add("returned");
+    setTimeout(() => tr.classList.remove("returned"), 1600);
+  }
 });
 document.querySelectorAll("#dangerTabs button").forEach((b) => {
   b.addEventListener("click", () => {
