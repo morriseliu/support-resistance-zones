@@ -1,0 +1,6 @@
+# Local scan working files: not part of the published repo.
+output/
+__pycache__/
+*.pyc
+.DS_Store
+# The published snapshot lives in docs/data/ and IS committed.
