@@ -1,0 +1,70 @@
+name: Daily refresh
+
+# Frozen spec sec.11: after both markets close, re-scan with the latest
+# trading day as benchmark. Cron: 22:00 UTC Sun-Thu = 06:00 CST Mon-Fri.
+# The validation gate must pass before anything is published: on failure
+# the workflow fails, nothing is committed, and the old snapshot stays live.
+on:
+  schedule:
+    - cron: "0 22 * * 0-4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sr-daily-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install requests pandas numpy
+      - name: Scan US (latest trading day)
+        run: |
+          python3 scan_us.py --auto-date \
+            --out-dir refresh_out/us --kline-dir refresh_out/kline/us
+      - name: Scan A shares (latest trading day)
+        run: |
+          python3 scan_a.py --auto-date --universe-source tencent_live \
+            --out-dir refresh_out/a --kline-dir refresh_out/kline/a
+      - name: Validation gate
+        id: gate
+        run: |
+          US_SCAN=$(ls refresh_out/us/us_scan_*.json | head -1)
+          A_SCAN=$(ls refresh_out/a/a_scan_*.json | head -1)
+          python3 scripts/validate_snapshot.py \
+            --us-scan "$US_SCAN" \
+            --a-scan "$A_SCAN" \
+            --us-manifest refresh_out/us/us_manifest.json \
+            --a-manifest refresh_out/a/a_manifest.json \
+            --prev-manifest docs/data/manifest.json \
+            --out refresh_out/validation.json
+      - name: Publish snapshot (gate passed only)
+        if: success()
+        run: |
+          python3 scripts/publish_snapshot.py \
+            --scan-dir refresh_out --data-dir docs/data \
+            --validation refresh_out/validation.json
+      - name: Commit and push
+        if: success()
+        run: |
+          git config user.name "sr-refresh-bot"
+          git config user.email "sr-refresh-bot@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Daily snapshot: $(python3 -c "import json;print(json.load(open('docs/data/manifest.json'))['snapshot_date_us'])")"
+          git push
+      - name: Upload failed snapshot for diagnosis
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-refresh-out
+          path: refresh_out/
+          retention-days: 7
