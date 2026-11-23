@@ -8,6 +8,7 @@ let DATA = { A: [], US: [] };
 let MANIFEST = null;
 let curMarket = "A";
 let curDanger = "support";
+let curView = "danger";
 let selected = null;
 
 function bust(url) {
@@ -102,12 +103,15 @@ function renderTable() {
   });
 }
 
+function renderView() {
+  $("dangerSection").style.display = curView === "danger" ? "block" : "none";
+  $("allSection").style.display = curView === "all" ? "block" : "none";
+}
+
 function renderDanger() {
   const key = curDanger === "support" ? "in_support_danger" : "in_resistance_danger";
-  let rows = [];
-  ["A", "US"].forEach((mk) => {
-    DATA[mk].forEach((r) => { if (r[key]) rows.push(r); });
-  });
+  // 只显示当前市场，不混两个市场。
+  let rows = DATA[curMarket].filter((r) => r[key]);
   rows.sort((a, b) => {
     const da = curDanger === "support" ? a.nearest_support_distance : a.nearest_resistance_distance;
     const db = curDanger === "support" ? b.nearest_support_distance : b.nearest_resistance_distance;
@@ -207,13 +211,15 @@ async function showDetail(key) {
   $("detail").style.display = "block";
   $("detailTitle").textContent = rec.symbol + " " + (rec.name || "") + "（" + (market === "A" ? "A 股" : "美股") + "）";
   $("detailMeta").textContent = "收盘价 " + (rec.close === null ? "数据未取到" : rec.close.toFixed(2)) + " · 快照日 " + (MANIFEST ? (market === "A" ? MANIFEST.snapshot_date_a : MANIFEST.snapshot_date_us) : "—");
+  // 图在列表上方：先立刻把图滚到视野顶部，K 线画好后再滚一次（不平滑滚动，避免被拉到页面底部）。
+  $("detail").scrollIntoView({ behavior: "auto", block: "start" });
   try {
     const kl = await (await fetch(bust("data/kline/" + market.toLowerCase() + "/" + symbol + ".json"))).json();
     drawChart($("chart"), kl, rec);
   } catch (e) {
     $("detailMeta").textContent += " · K 线数据未取到。";
   }
-  $("detail").scrollIntoView({ behavior: "smooth", block: "start" });
+  $("detail").scrollIntoView({ behavior: "auto", block: "start" });
 }
 
 async function loadAll() {
@@ -222,7 +228,7 @@ async function loadAll() {
   const us = await (await fetch(bust("data/us_scan.json"))).json();
   const a = await (await fetch(bust("data/a_scan.json"))).json();
   DATA = { A: a, US: us };
-  renderBanner(); renderTable(); renderDanger();
+  renderBanner(); renderView(); renderTable(); renderDanger();
 }
 
 $("refreshBtn").addEventListener("click", async () => {
@@ -237,8 +243,19 @@ $("refreshBtn").addEventListener("click", async () => {
 document.querySelectorAll("#marketTabs button").forEach((b) => {
   b.addEventListener("click", () => {
     document.querySelectorAll("#marketTabs button").forEach((x) => x.classList.remove("on"));
-    b.classList.add("on"); curMarket = b.getAttribute("data-market"); renderTable();
+    b.classList.add("on"); curMarket = b.getAttribute("data-market");
+    $("detail").style.display = "none"; selected = null;
+    renderTable(); renderDanger();
   });
+});
+document.querySelectorAll("#viewTabs button").forEach((b) => {
+  b.addEventListener("click", () => {
+    document.querySelectorAll("#viewTabs button").forEach((x) => x.classList.remove("on"));
+    b.classList.add("on"); curView = b.getAttribute("data-view"); renderView();
+  });
+});
+$("closeDetail").addEventListener("click", () => {
+  $("detail").style.display = "none"; selected = null;
 });
 document.querySelectorAll("#dangerTabs button").forEach((b) => {
   b.addEventListener("click", () => {

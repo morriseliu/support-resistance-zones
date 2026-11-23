@@ -17,6 +17,9 @@ button{cursor:pointer;border:1px solid var(--border);background:#fff;border-radi
 button.primary{background:var(--blue);color:#fff;border-color:var(--blue)}
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
 .tabs button.on{background:#1f2937;color:#fff;border-color:#1f2937}
+.tabs.market button{font-size:16px;padding:9px 22px}
+.tabs.view button{font-size:15px;padding:8px 18px}
+.tabs.danger button{font-size:14px;padding:7px 14px}
 main{max-width:1180px;margin:0 auto;padding:0 16px 40px}
 .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0}
 .toolbar input,.toolbar select{padding:7px 10px;font-size:14px;border:1px solid var(--border);border-radius:6px}
@@ -26,7 +29,10 @@ th{background:#f1f5f9;white-space:nowrap}
 tr.clickable{cursor:pointer}tr.clickable:hover{background:#f8fafc}
 .zone{margin:2px 0}.tag{display:inline-block;font-size:11px;border:1px solid var(--border);border-radius:4px;padding:0 5px;margin-left:4px;color:#4b5563}
 .tag.flip{color:var(--orange);border-color:#fcd34d}.tag.wk{color:var(--blue);border-color:#bfdbfe}
-#detail{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px;margin-top:16px}
+#detail{background:#fff;border:1px solid var(--border);border-radius:8px;padding:14px;margin:16px 0;scroll-margin-top:10px}
+#detailHead{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+#detailHead h2{margin:0}
+#closeDetail{flex:none}
 #chart{width:100%;height:420px;display:block}
 .note{background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px 14px;font-size:13px;line-height:1.7}
 footer{color:#6b7280;font-size:12px;padding:20px;text-align:center}
@@ -49,11 +55,44 @@ footer{color:#6b7280;font-size:12px;padding:20px;text-align:center}
 </div>
 </header>
 <main>
-<h2>分区一 · 支压位统计</h2>
-<div class="tabs" id="marketTabs">
+<!-- 第一层：市场版块 -->
+<div class="tabs market" id="marketTabs">
 <button data-market="A" class="on">A 股</button>
 <button data-market="US">美股</button>
 </div>
+
+<!-- 点开个股后，图显示在这里（列表上方），点开即见，不用拉到页面最下面 -->
+<div id="detail" style="display:none">
+<div id="detailHead">
+<h2 id="detailTitle"></h2>
+<button id="closeDetail" type="button">关闭 ✕</button>
+</div>
+<p class="small" id="detailMeta"></p>
+<canvas id="chart" width="1100" height="420"></canvas>
+<p class="small">图例：支撑区蓝色色带（上下沿实线、带内浅色填充）；压力区 / 翻转区橙色色带；第二道及更远支撑灰色虚线。K 线红色为上涨、绿色为下跌；下方为成交量。区数据按冻结规格（摆动点前后各 5 根、区宽 ≤ 触碰时 ATR(14)、≥2 次触碰、破区只看收盘价越过区沿）算出。</p>
+</div>
+
+<!-- 第二层：本市场内的两个列表 -->
+<div class="tabs view" id="viewTabs">
+<button data-view="danger" class="on">危险区</button>
+<button data-view="all">全部支压位</button>
+</div>
+
+<section id="dangerSection">
+<p class="small">进入条件：收盘价在区内（距离 0）或离区沿 ≤3%。一只票可同时进两个细区。危险区是价格贴近区沿的位置提示，不是买卖信号。只显示当前市场（上方选中的 A 股 / 美股）。</p>
+<div class="tabs danger" id="dangerTabs">
+<button data-danger="support" class="on">支撑危险区</button>
+<button data-danger="resistance">压力危险区</button>
+</div>
+<div style="overflow-x:auto">
+<table>
+<thead><tr><th>代码 / 名称</th><th>收盘价</th><th>贴近的区</th><th>距离</th></tr></thead>
+<tbody id="dangerRows"></tbody>
+</table>
+</div>
+</section>
+
+<section id="allSection" style="display:none">
 <div class="toolbar">
 <input id="search" type="search" placeholder="搜索代码 / 名称">
 <select id="zoneFilter">
@@ -70,28 +109,9 @@ footer{color:#6b7280;font-size:12px;padding:20px;text-align:center}
 <tbody id="rows"></tbody>
 </table>
 </div>
-
-<h2>分区二 · 危险区</h2>
-<p class="small">进入条件：收盘价在区内（距离 0）或离区沿 ≤3%。一只票可同时进两个细区。危险区是价格贴近区沿的位置提示，不是买卖信号。</p>
-<div class="tabs" id="dangerTabs">
-<button data-danger="support" class="on">支撑危险区</button>
-<button data-danger="resistance">压力危险区</button>
-</div>
-<div style="overflow-x:auto">
-<table>
-<thead><tr><th>代码 / 名称</th><th>收盘价</th><th>贴近的区</th><th>距离</th></tr></thead>
-<tbody id="dangerRows"></tbody>
-</table>
-</div>
-
-<div id="detail" style="display:none">
-<h2 id="detailTitle" style="margin-top:0"></h2>
-<p class="small" id="detailMeta"></p>
-<canvas id="chart" width="1100" height="420"></canvas>
-<p class="small">图例：支撑区蓝色色带（上下沿实线、带内浅色填充）；压力区 / 翻转区橙色色带；第二道及更远支撑灰色虚线。K 线红色为上涨、绿色为下跌；下方为成交量。区数据按冻结规格（摆动点前后各 5 根、区宽 ≤ 触碰时 ATR(14)、≥2 次触碰、破区只看收盘价越过区沿）算出。</p>
-</div>
+</section>
 </main>
 <footer>数据来源：美股 Yahoo 日 K 与 Nasdaq 市值筛选；A 股腾讯快照与新浪日 K。基准日与校验状态见页顶快照信息。规则全文见仓库冻结规格文件。</footer>
-<script src="app.js?v=1"></script>
+<script src="app.js?v=2"></script>
 </body>
 </html>
