@@ -213,11 +213,29 @@ async function showDetail(key) {
   $("detailMeta").textContent = "收盘价 " + (rec.close === null ? "数据未取到" : rec.close.toFixed(2)) + " · 快照日 " + (MANIFEST ? (market === "A" ? MANIFEST.snapshot_date_a : MANIFEST.snapshot_date_us) : "—");
   // 图在列表上方：先立刻把图滚到视野顶部，K 线画好后再滚一次（不平滑滚动，避免被拉到页面底部）。
   $("detail").scrollIntoView({ behavior: "auto", block: "start" });
+  // 取 K 线失败时显示真实原因（HTTP 状态 / 网络错误），并重试一次；再失败就明说，不留空白图。
+  let kl = null;
+  let lastErr = null;
+  for (let attempt = 0; attempt < 2 && !kl; attempt++) {
+    try {
+      const url = bust("data/kline/" + market.toLowerCase() + "/" + symbol + ".json");
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error("HTTP " + resp.status + "（" + url.split("?")[0] + "）");
+      kl = await resp.json();
+    } catch (e) {
+      lastErr = e;
+      if (attempt === 0) await new Promise((r) => setTimeout(r, 600));
+    }
+  }
+  if (!kl) {
+    $("detailMeta").textContent += " · K 线数据未取到：" + (lastErr ? lastErr.message : "未知错误") + "。请把页面关掉重新打开再试一次。";
+    return;
+  }
   try {
-    const kl = await (await fetch(bust("data/kline/" + market.toLowerCase() + "/" + symbol + ".json"))).json();
     drawChart($("chart"), kl, rec);
   } catch (e) {
-    $("detailMeta").textContent += " · K 线数据未取到。";
+    $("detailMeta").textContent += " · 画图失败：" + e.message + "。";
+    return;
   }
   $("detail").scrollIntoView({ behavior: "auto", block: "start" });
 }
