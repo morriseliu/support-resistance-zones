@@ -134,6 +134,8 @@ def sanitize(obj):
         return bool(obj)
     if isinstance(obj, pd.Timestamp):
         return obj.strftime("%Y-%m-%d")
+    if isinstance(obj, float) and not math.isfinite(obj):
+        return None
     return obj
 
 

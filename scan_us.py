@@ -269,12 +269,12 @@ def _clean(obj):
         return {k: _clean(v) for k, v in obj.items()}
     if isinstance(obj, (list, tuple)):
         return [_clean(v) for v in obj]
-    if hasattr(obj, "item"):  # numpy scalar
+    if hasattr(obj, "item"):  # numpy scalar: convert first, THEN check finiteness
         try:
-            return obj.item()
+            obj = obj.item()
         except Exception:
             pass
-    if isinstance(obj, float) and (math.isnan(obj) or math.isinf(obj)):
+    if isinstance(obj, float) and not math.isfinite(obj):
         return None
     return obj
 
