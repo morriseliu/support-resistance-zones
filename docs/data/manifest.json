@@ -1,16 +1,16 @@
 {
   "snapshot_date_us": "2026-11-23",
   "snapshot_date_a": "2026-11-23",
-  "generated_at": "2026-11-24T00:37:34.839721Z",
+  "generated_at": "2026-11-24T05:48:19.310877Z",
   "us_universe": 300,
-  "a_universe": 1901,
+  "a_universe": 1895,
   "us_success": 296,
-  "a_success": 1860,
+  "a_success": 1853,
   "us_success_rate": 0.9867,
-  "a_success_rate": 0.9784,
+  "a_success_rate": 0.9778,
   "validation": {
     "status": "PASS",
-    "checked_at": "2026-11-24T00:37:31.707378Z",
+    "checked_at": "2026-11-24T05:48:16.813186Z",
     "details": "success rates: US 0.987, A 0.978",
     "failures": []
   }
