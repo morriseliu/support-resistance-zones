@@ -1,4 +1,4 @@
-/* 支撑压力区扫描 - 纯静态站。数据请求一律加时间戳参数，避免浏览器缓存导致看不到新数据。*/
+/* 支撑压力区扫描 - 纯静态站。快照信息每次都加时间戳取最新；两个大扫描文件用快照发布时间做缓存键，同一份快照不再重复下载，换快照才重新取。*/
 "use strict";
 /* 发布时如仓库名不是 support-resistance-zones，改这里。*/
 const REPO = "morriseliu/support-resistance-zones";
@@ -248,13 +248,37 @@ async function showDetail(key) {
   $("detail").scrollIntoView({ behavior: "auto", block: "start" });
 }
 
+let DATA_VER = "";
+
+// 取数失败时重试一次（手机网络抖动常见），并报出真实原因，不笼统说“检查网络”。
+async function fetchJSON(url, label) {
+  let lastErr = null;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
+      return await resp.json();
+    } catch (e) {
+      lastErr = e;
+      if (attempt === 0) await new Promise((r) => setTimeout(r, 600));
+    }
+  }
+  throw new Error(label + "取不到（" + (lastErr ? lastErr.message : "未知错误") + "）");
+}
+
 async function loadAll() {
-  const m = await (await fetch(bust("data/manifest.json"))).json();
+  const m = await fetchJSON(bust("data/manifest.json"), "快照信息");
   MANIFEST = m;
-  const us = await (await fetch(bust("data/us_scan.json"))).json();
-  const a = await (await fetch(bust("data/a_scan.json"))).json();
-  DATA = { A: a, US: us };
+  // 快照换了就先清空旧数据：没取到的市场宁可显示为空，也不能把旧快照的数据顶着新日期显示。
+  const ver = m.generated_at ? encodeURIComponent(m.generated_at) : encodeURIComponent((m.snapshot_date_us || "") + "_" + (m.snapshot_date_a || ""));
+  if (ver !== DATA_VER) { DATA = { A: [], US: [] }; DATA_VER = ver; }
+  const errs = [];
+  try { DATA.US = await fetchJSON("data/us_scan.json?v=" + ver, "美股数据"); }
+  catch (e) { errs.push(e.message); }
+  try { DATA.A = await fetchJSON("data/a_scan.json?v=" + ver, "A 股数据"); }
+  catch (e) { errs.push(e.message); }
   renderBanner(); renderView(); renderTable(); renderDanger();
+  if (errs.length) throw new Error(errs.join("；"));
 }
 
 $("refreshBtn").addEventListener("click", async () => {
@@ -263,7 +287,7 @@ $("refreshBtn").addEventListener("click", async () => {
     await loadAll();
     $("refreshNote").textContent = "已重取最新已发布数据 " + new Date().toLocaleString("zh-CN") + "（快照日见页顶）。";
   } catch (e) {
-    $("refreshNote").textContent = "重取失败，请检查网络后重试。";
+    $("refreshNote").textContent = "重取失败：" + e.message + "，请重试。";
   }
 });
 document.querySelectorAll("#marketTabs button").forEach((b) => {
@@ -298,4 +322,4 @@ document.querySelectorAll("#dangerTabs button").forEach((b) => {
 });
 $("search").addEventListener("input", renderTable);
 $("zoneFilter").addEventListener("change", renderTable);
-loadAll().catch(() => { renderBanner(); });
+loadAll().catch((e) => { renderBanner(); if (e && e.message) $("refreshNote").textContent = "初次取数失败：" + e.message + "，请点手动刷新重试。"; });
