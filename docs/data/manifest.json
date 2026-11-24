@@ -1,7 +1,7 @@
 {
   "snapshot_date_us": "2026-11-23",
   "snapshot_date_a": "2026-11-23",
-  "generated_at": "2026-11-24T00:18:15.193622Z",
+  "generated_at": "2026-11-24T00:37:34.839721Z",
   "us_universe": 300,
   "a_universe": 1901,
   "us_success": 296,
@@ -10,7 +10,7 @@
   "a_success_rate": 0.9784,
   "validation": {
     "status": "PASS",
-    "checked_at": "2026-11-24T00:18:11.049976Z",
+    "checked_at": "2026-11-24T00:37:31.707378Z",
     "details": "success rates: US 0.987, A 0.978",
     "failures": []
   }

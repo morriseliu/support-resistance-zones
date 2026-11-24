@@ -34401,7 +34401,7 @@
         "lo": 6.8762,
         "hi": 7.295,
         "width": 0.4188,
-        "atr_max": NaN,
+        "atr_max": null,
         "touches": [
           {
             "date": "2025-02-25",
