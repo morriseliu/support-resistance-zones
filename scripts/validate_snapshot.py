@@ -19,7 +19,7 @@ failure. Never publish stale data as fresh.
 import argparse
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -30,8 +30,13 @@ HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
 def yahoo_close(symbol):
-    url = ("https://query2.finance.yahoo.com/v8/finance/chart/%s"
-           "?period1=1704067200&period2=1795363200&interval=1d" % symbol)
+    # period2 must stay ahead of "now" (same as scan_us.py): a fixed
+    # period2 freezes the last bar at that date, so the spot-check would
+    # always fail for any snapshot after it. 2026-11-22 16:00 UTC fixed
+    # value used to return 2026-11-20 forever.
+    period2 = int((datetime.now(timezone.utc) + timedelta(days=2)).timestamp())
+    url = (f"https://query2.finance.yahoo.com/v8/finance/chart/{symbol}"
+           f"?period1=1704067200&period2={period2}&interval=1d")
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
     res = r.json()["chart"]["result"][0]
