@@ -62,9 +62,15 @@ def sina_close(code):
     return last["day"], float(last["close"])
 
 
+def _reject_constant(name):
+    # Python's json accepts NaN/Infinity, browsers' JSON.parse does not.
+    # A single such token in a published scan file blanks every table.
+    raise ValueError("non-strict JSON constant in scan file: %s" % name)
+
+
 def load_records(path):
     with open(path, encoding="utf-8") as f:
-        data = json.load(f)
+        data = json.load(f, parse_constant=_reject_constant)
     return data if isinstance(data, list) else data.get("records", [])
 
 
@@ -85,9 +91,9 @@ def main():
     us = load_records(args.us_scan)
     a = load_records(args.a_scan)
     with open(args.us_manifest, encoding="utf-8") as f:
-        um = json.load(f)
+        um = json.load(f, parse_constant=_reject_constant)
     with open(args.a_manifest, encoding="utf-8") as f:
-        am = json.load(f)
+        am = json.load(f, parse_constant=_reject_constant)
 
     # 1. snapshot date vs latest close date in manifests
     for name, m in (("US", um), ("A", am)):
@@ -113,7 +119,7 @@ def main():
     # previous-run comparison
     if args.prev_manifest and Path(args.prev_manifest).exists():
         with open(args.prev_manifest, encoding="utf-8") as f:
-            prev = json.load(f)
+            prev = json.load(f, parse_constant=_reject_constant)
         for name, rate in rates.items():
             key = "us_success_rate" if name == "US" else "a_success_rate"
             prev_rate = prev.get(key)
