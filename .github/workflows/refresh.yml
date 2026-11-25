@@ -1,12 +1,20 @@
 name: Daily refresh
 
 # Frozen spec sec.11: after both markets close, re-scan with the latest
-# trading day as benchmark. Cron: 22:00 UTC Sun-Thu = 06:00 CST Mon-Fri.
+# trading day as benchmark. Cron: 22:17 UTC Sun-Thu = 06:17 CST Mon-Fri.
+# Minute 17 (not 0): GitHub's schedule trigger is best-effort and the top
+# of the hour is the busiest slot; runs there get delayed for hours or
+# dropped with no record. 22:17 UTC is 1h17m after the US close, giving
+# Yahoo time to publish the final daily bar. Second slot 02:30 UTC
+# Tue-Sat (10:30 Beijing) is a backup: it re-scans after both sources
+# have settled, so a dropped or Yahoo-lagged first run is corrected the
+# same morning. A Muse-side watchdog at 11:00 Beijing is the final backstop.
 # The validation gate must pass before anything is published: on failure
 # the workflow fails, nothing is committed, and the old snapshot stays live.
 on:
   schedule:
-    - cron: "0 22 * * 0-4"
+    - cron: "17 22 * * 0-4"
+    - cron: "30 2 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -21,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - name: Install dependencies
@@ -63,7 +71,7 @@ jobs:
           git push
       - name: Upload failed snapshot for diagnosis
         if: failure()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: failed-refresh-out
           path: refresh_out/
