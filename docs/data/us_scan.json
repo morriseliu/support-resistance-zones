@@ -14435,10 +14435,14 @@
         "lo": 66.45,
         "hi": 66.5,
         "width": 0.05,
-        "atr_max": 0.825,
+        "atr_max": 0.7336,
         "touches": [
           {
-            "date": "2026-07-02",
+            "date": "2026-07-06",
+            "price": 66.5
+          },
+          {
+            "date": "2026-07-13",
             "price": 66.5
           },
           {
@@ -14454,8 +14458,8 @@
             "price": 66.45
           }
         ],
-        "n_touches": 4,
-        "first_touch": "2026-07-02",
+        "n_touches": 5,
+        "first_touch": "2026-07-06",
         "last_touch": "2026-09-02",
         "breaks_between": 0,
         "worst_between": 66.5,
