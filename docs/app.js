@@ -116,6 +116,12 @@ function renderView() {
 }
 
 function renderDanger() {
+  const all = DATA[curMarket] || [];
+  const ns = all.filter((r) => r.in_support_danger).length;
+  const nr = all.filter((r) => r.in_resistance_danger).length;
+  const nns = all.filter((r) => r.in_support_danger && r.is_new_danger).length;
+  const nnr = all.filter((r) => r.in_resistance_danger && r.is_new_danger).length;
+  $("dangerSummary").innerHTML = "当前" + (curMarket === "A" ? "A 股" : "美股") + "：支撑危险区 <b>" + ns + "</b> 只（新增 <b>" + nns + "</b> 只） · 压力危险区 <b>" + nr + "</b> 只（新增 <b>" + nnr + "</b> 只）";
   const key = curDanger === "support" ? "in_support_danger" : "in_resistance_danger";
   // 只显示当前市场，不混两个市场。
   let rows = DATA[curMarket].filter((r) => r[key]);
