@@ -234,7 +234,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MSFT",
@@ -472,7 +473,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NVDA",
@@ -643,7 +645,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GOOGL",
@@ -1005,7 +1008,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GOOG",
@@ -1301,7 +1305,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AMZN",
@@ -1504,7 +1509,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TSM",
@@ -1819,7 +1825,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SPCX",
@@ -1838,7 +1845,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": false,
-    "error": "历史仅116根，少于250根"
+    "error": "历史仅116根，少于250根",
+    "is_new_danger": false
   },
   {
     "symbol": "META",
@@ -2050,7 +2058,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TSLA",
@@ -2400,7 +2409,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AVGO",
@@ -2683,7 +2693,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LLY",
@@ -2894,7 +2905,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BRK/A",
@@ -3113,7 +3125,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BRK/B",
@@ -3332,7 +3345,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ANT",
@@ -3351,7 +3365,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": false,
-    "error": "历史仅5根，少于250根"
+    "error": "历史仅5根，少于250根",
+    "is_new_danger": false
   },
   {
     "symbol": "WMT",
@@ -3600,7 +3615,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "JPM",
@@ -3808,7 +3824,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SKHY",
@@ -3827,7 +3844,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": false,
-    "error": "历史仅98根，少于250根"
+    "error": "历史仅98根，少于250根",
+    "is_new_danger": false
   },
   {
     "symbol": "V",
@@ -4046,7 +4064,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MU",
@@ -4337,7 +4356,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AMD",
@@ -4641,7 +4661,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "JNJ",
@@ -4844,7 +4865,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "XOM",
@@ -5055,7 +5077,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MA",
@@ -5238,7 +5261,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ABBV",
@@ -5467,7 +5491,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ASML",
@@ -5788,7 +5813,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "COST",
@@ -5937,7 +5963,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "KO",
@@ -6140,7 +6167,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CVX",
@@ -6363,7 +6391,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PG",
@@ -6583,7 +6612,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PLTR",
@@ -6842,7 +6872,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CSCO",
@@ -7179,7 +7210,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HD",
@@ -7340,7 +7372,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MRK",
@@ -7585,7 +7618,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BAC",
@@ -7794,7 +7828,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GE",
@@ -8031,7 +8066,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ORCL",
@@ -8205,7 +8241,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "UNH",
@@ -8351,7 +8388,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NVS",
@@ -8617,7 +8655,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PANW",
@@ -8807,7 +8846,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "INTC",
@@ -9103,7 +9143,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PM",
@@ -9281,7 +9322,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AZN",
@@ -9476,7 +9518,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TM",
@@ -9677,7 +9720,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HSBC",
@@ -9973,7 +10017,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SHEL",
@@ -10180,7 +10225,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "RTX",
@@ -10442,7 +10488,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "RY",
@@ -10730,7 +10777,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MS",
@@ -11108,7 +11156,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SAP",
@@ -11404,7 +11453,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TMO",
@@ -11586,7 +11636,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AMGN",
@@ -11823,7 +11874,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CAT",
@@ -12064,7 +12116,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AMAT",
@@ -12356,7 +12409,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TXN",
@@ -12585,7 +12639,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "WFC",
@@ -12789,7 +12844,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LIN",
@@ -12934,7 +12990,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LRCX",
@@ -13259,7 +13316,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GS",
@@ -13588,7 +13646,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "IBM",
@@ -13760,7 +13819,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MUFG",
@@ -14048,7 +14108,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GILD",
@@ -14281,7 +14342,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CCZ",
@@ -14712,7 +14774,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CRWD",
@@ -14949,7 +15012,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DIS",
@@ -15090,7 +15154,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AXP",
@@ -15361,7 +15426,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BABA",
@@ -15590,7 +15656,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ANET",
@@ -15865,7 +15932,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MCD",
@@ -16031,7 +16099,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PEP",
@@ -16227,7 +16296,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "VZ",
@@ -16494,7 +16564,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TD",
@@ -16697,7 +16768,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GEV",
@@ -17001,7 +17073,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DELL",
@@ -17247,7 +17320,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "C",
@@ -17522,7 +17596,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ABT",
@@ -17822,7 +17897,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TTE",
@@ -18085,7 +18161,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NVO",
@@ -18340,7 +18417,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "WELL",
@@ -18551,7 +18629,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "APH",
@@ -18855,7 +18934,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "QCOM",
@@ -19067,7 +19147,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BHP",
@@ -19359,7 +19440,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NEE",
@@ -19572,7 +19654,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "UNP",
@@ -19834,7 +19917,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BLK",
@@ -20034,7 +20118,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TMUS",
@@ -20267,7 +20352,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "KLAC",
@@ -20509,7 +20595,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DE",
@@ -20750,7 +20837,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ARM",
@@ -20980,7 +21068,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SHOP",
@@ -21272,7 +21361,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "WMB",
@@ -21682,7 +21772,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SONY",
@@ -21865,7 +21956,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SAN",
@@ -22161,7 +22253,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CRM",
@@ -22444,7 +22537,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PFE",
@@ -22655,7 +22749,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ADI",
@@ -22980,7 +23075,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SCHW",
@@ -23147,7 +23243,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ACN",
@@ -23472,7 +23569,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TJX",
@@ -23619,7 +23717,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DHR",
@@ -23839,7 +23938,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "COP",
@@ -24034,7 +24134,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BUD",
@@ -24234,7 +24335,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "T",
@@ -24471,7 +24573,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ISRG",
@@ -24646,7 +24749,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HDB",
@@ -24892,7 +24996,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CB",
@@ -25116,7 +25221,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SMFG",
@@ -25349,7 +25455,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "UL",
@@ -25521,7 +25628,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "VRTX",
@@ -25725,7 +25833,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "UBS",
@@ -25962,7 +26071,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LMT",
@@ -26137,7 +26247,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PGR",
@@ -26540,7 +26651,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BBVA",
@@ -26781,7 +26893,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "UBER",
@@ -27051,7 +27164,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SPGI",
@@ -27218,7 +27332,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SNY",
@@ -27355,7 +27470,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LOW",
@@ -27566,7 +27682,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "IBN",
@@ -27711,7 +27828,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BTI",
@@ -27886,7 +28004,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BA",
@@ -28056,7 +28175,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SPOT",
@@ -28277,7 +28397,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MO",
@@ -28501,7 +28622,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SYK",
@@ -28784,7 +28906,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BMY",
@@ -29025,7 +29148,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "APP",
@@ -29288,7 +29412,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ADP",
@@ -29466,7 +29591,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PDD",
@@ -29741,7 +29867,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MCK",
@@ -29978,7 +30105,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ETN",
@@ -30093,7 +30221,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MDT",
@@ -30305,7 +30434,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SBUX",
@@ -30566,7 +30696,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PLD",
@@ -30928,7 +31059,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SCCO",
@@ -31203,7 +31335,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MFG",
@@ -31407,7 +31540,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MRVL",
@@ -31699,7 +31833,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PH",
@@ -31970,7 +32105,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BP",
@@ -32203,7 +32339,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CME",
@@ -32374,7 +32511,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BMO",
@@ -32579,7 +32717,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BKNG",
@@ -32778,7 +32917,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SO",
@@ -32944,7 +33084,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "COF",
@@ -33164,7 +33305,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "STX",
@@ -33497,7 +33639,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MAR",
@@ -33726,7 +33869,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NEM",
@@ -34047,7 +34191,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ENB",
@@ -34285,7 +34430,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CVS",
@@ -34460,7 +34606,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BNS",
@@ -34656,7 +34803,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PBR",
@@ -34956,7 +35104,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MRSH",
@@ -35193,7 +35342,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DUK",
@@ -35463,7 +35613,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GSK",
@@ -35729,7 +35880,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HCA",
@@ -36025,7 +36177,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "WDC",
@@ -36288,7 +36441,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "REGN",
@@ -36529,7 +36683,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NET",
@@ -36704,7 +36859,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ABNB",
@@ -36912,7 +37068,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ICE",
@@ -37083,7 +37240,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "FTNT",
@@ -37266,7 +37424,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BNY",
@@ -37570,7 +37729,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "WM",
@@ -37727,7 +37887,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MMM",
@@ -37930,7 +38091,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GD",
@@ -38171,7 +38333,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "EQIX",
@@ -38536,7 +38699,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "EQNR",
@@ -38736,7 +38900,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "RACE",
@@ -39003,7 +39168,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NOW",
@@ -39219,7 +39385,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "UPS",
@@ -39486,7 +39653,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CM",
@@ -39719,7 +39887,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SNOW",
@@ -39948,7 +40117,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CSX",
@@ -40210,7 +40380,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MPC",
@@ -40425,7 +40596,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SNDK",
@@ -40444,7 +40616,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": false,
-    "error": "最后一条日期为2026-11-19，不是基准日2026-11-25"
+    "error": "最后一条日期为2026-11-19，不是基准日2026-11-25",
+    "is_new_danger": false
   },
   {
     "symbol": "RIO",
@@ -40743,7 +40916,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CNQ",
@@ -40951,7 +41125,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PSX",
@@ -41146,7 +41321,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CMCSA",
@@ -41366,7 +41542,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "USB",
@@ -41599,7 +41776,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ADBE",
@@ -41752,7 +41930,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CTAS",
@@ -41993,7 +42172,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "VLO",
@@ -42230,7 +42410,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BN",
@@ -42479,7 +42660,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MSI",
@@ -42708,7 +42890,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MRNA",
@@ -42935,7 +43118,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BX",
@@ -43151,7 +43335,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TT",
@@ -43359,7 +43544,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PNC",
@@ -43592,7 +43778,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SHW",
@@ -43775,7 +43962,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NGG",
@@ -44079,7 +44267,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ECL",
@@ -44249,7 +44438,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ING",
@@ -44486,7 +44676,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GLW",
@@ -44761,7 +44952,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "EMR",
@@ -44968,7 +45160,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MDLZ",
@@ -45139,7 +45332,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AMT",
@@ -45426,7 +45620,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PWR",
@@ -45792,7 +45987,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ELV",
@@ -46050,7 +46246,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "RCL",
@@ -46254,7 +46451,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "KKR",
@@ -46429,7 +46627,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HWM",
@@ -46762,7 +46961,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MCO",
@@ -47033,7 +47233,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MNST",
@@ -47304,7 +47505,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TRV",
@@ -47503,7 +47705,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BAM",
@@ -47815,7 +48018,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CEG",
@@ -48060,7 +48264,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "E",
@@ -48305,7 +48510,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "JCI",
@@ -48525,7 +48731,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AEM",
@@ -48854,7 +49061,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HLT",
@@ -49078,7 +49286,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ITW",
@@ -49282,7 +49491,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CP",
@@ -49494,7 +49704,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CDNS",
@@ -49757,7 +49968,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CL",
@@ -49961,7 +50173,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NOC",
@@ -50165,7 +50378,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TGT",
@@ -50376,7 +50590,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "EPD",
@@ -50657,7 +50872,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SNPS",
@@ -50744,7 +50960,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ORLY",
@@ -51023,7 +51240,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "RSG",
@@ -51248,7 +51466,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "EOG",
@@ -51401,7 +51620,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CNI",
@@ -51617,7 +51837,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SPG",
@@ -51862,7 +52083,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AJG",
@@ -52162,7 +52384,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CVNA",
@@ -52449,7 +52672,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MELI",
@@ -52648,7 +52872,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SU",
@@ -52847,7 +53072,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LYG",
@@ -53155,7 +53381,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AON",
@@ -53309,7 +53536,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NSC",
@@ -53601,7 +53829,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TAK",
@@ -53783,7 +54012,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DASH",
@@ -54057,7 +54287,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "FDX",
@@ -54331,7 +54562,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "INTU",
@@ -54564,7 +54796,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "SLB",
@@ -54760,7 +54993,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CI",
@@ -55018,7 +55252,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HON",
@@ -55289,7 +55524,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ROST",
@@ -55492,7 +55728,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "APO",
@@ -55741,7 +55978,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BCS",
@@ -56070,7 +56308,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GM",
@@ -56344,7 +56583,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "KMI",
@@ -56556,7 +56796,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "RELX",
@@ -56735,7 +56976,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "APD",
@@ -56934,7 +57176,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MFC",
@@ -57163,7 +57406,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "FCX",
@@ -57492,7 +57736,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AEP",
@@ -57783,7 +58028,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "COR",
@@ -58053,7 +58299,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "KMB",
@@ -58365,7 +58612,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ALL",
@@ -58634,7 +58882,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "VRT",
@@ -59029,7 +59278,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NTES",
@@ -59274,7 +59524,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GWW",
@@ -59449,7 +59700,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ASX",
@@ -59749,7 +60001,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CAH",
@@ -59982,7 +60235,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BSX",
@@ -60189,7 +60443,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CRH",
@@ -60430,7 +60685,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PSA",
@@ -60591,7 +60847,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AFL",
@@ -60836,7 +61093,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DLR",
@@ -61039,7 +61297,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TRP",
@@ -61363,7 +61622,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "URI",
@@ -61604,7 +61864,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TDG",
@@ -61819,7 +62080,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MET",
@@ -62030,7 +62292,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DB",
@@ -62197,7 +62460,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "LNG",
@@ -62430,7 +62694,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NXPI",
@@ -62771,7 +63036,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TRGP",
@@ -62986,7 +63252,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "EW",
@@ -63201,7 +63468,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NWG",
@@ -63526,7 +63794,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "ARGX",
@@ -63712,7 +63981,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "FAST",
@@ -63961,7 +64231,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TEL",
@@ -64153,7 +64424,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NU",
@@ -64336,7 +64608,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "BDX",
@@ -64539,7 +64812,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "D",
@@ -64800,7 +65074,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NDAQ",
@@ -64953,7 +65228,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HOOD",
@@ -65195,7 +65471,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MPWR",
@@ -65532,7 +65809,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CMI",
@@ -65878,7 +66156,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "TFC",
@@ -66228,7 +66507,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "O",
@@ -66399,7 +66679,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DDOG",
@@ -66625,7 +66906,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "PCAR",
@@ -66896,7 +67178,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DEO",
@@ -67133,7 +67416,8 @@
     "in_support_danger": true,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "B",
@@ -67425,7 +67709,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "IDXX",
@@ -67604,7 +67889,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NUE",
@@ -67845,7 +68131,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "WPM",
@@ -68141,7 +68428,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "IMO",
@@ -68482,7 +68770,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AZO",
@@ -68749,7 +69038,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "DAL",
@@ -68990,7 +69280,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "OKE",
@@ -69251,7 +69542,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "NKE",
@@ -69462,7 +69754,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "HPE",
@@ -69699,7 +69992,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "OXY",
@@ -69870,7 +70164,8 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "GRMN",
@@ -70127,7 +70422,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "CCEP",
@@ -70360,7 +70656,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "MDLN",
@@ -70379,7 +70676,8 @@
     "in_support_danger": false,
     "in_resistance_danger": false,
     "has_valid_zone": false,
-    "error": "历史仅237根，少于250根"
+    "error": "历史仅237根，少于250根",
+    "is_new_danger": false
   },
   {
     "symbol": "INFY",
@@ -70603,7 +70901,8 @@
     "in_support_danger": false,
     "in_resistance_danger": true,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   },
   {
     "symbol": "AME",
@@ -70852,6 +71151,7 @@
     "in_support_danger": true,
     "in_resistance_danger": false,
     "has_valid_zone": true,
-    "error": null
+    "error": null,
+    "is_new_danger": false
   }
 ]
