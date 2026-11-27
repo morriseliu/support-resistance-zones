@@ -131,7 +131,7 @@ function renderDanger() {
     const near = zones.filter((z) => z.distance <= 0.03).map(zoneText).join("");
     const d = curDanger === "support" ? r.nearest_support_distance : r.nearest_resistance_distance;
     const cur = r.currency === "CNY" ? "元" : "$";
-    return '<tr class="clickable" data-key="' + r.market + ":" + r.symbol + '"><td><b>' + r.symbol + "</b><br>" + (r.name || "") + "（" + (r.market === "A" ? "A 股" : "美股") + "）</td><td>" + (r.close === null ? "数据未取到" : r.close.toFixed(2) + " " + cur) + "</td><td>" + near + "</td><td>" + fmtPct(d) + "</td></tr>";
+    return '<tr class="clickable" data-key="' + r.market + ":" + r.symbol + '"><td><b>' + r.symbol + "</b>" + (r.is_new_danger ? '<span class="tag new">新增</span>' : "") + "<br>" + (r.name || "") + "（" + (r.market === "A" ? "A 股" : "美股") + "）</td><td>" + (r.close === null ? "数据未取到" : r.close.toFixed(2) + " " + cur) + "</td><td>" + near + "</td><td>" + fmtPct(d) + "</td></tr>";
   }).join("") || '<tr><td colspan="4">暂无进入该危险区的票。</td></tr>';
   document.querySelectorAll("#dangerRows tr").forEach((tr) => {
     tr.addEventListener("click", () => showDetail(tr.getAttribute("data-key")));
