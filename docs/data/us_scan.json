@@ -3354,7 +3354,7 @@
     "market": "US",
     "close": 82.79000091552734,
     "benchmark_date": "2026-11-25",
-    "market_cap_usd": 1083445623974.0,
+    "market_cap_usd": 1094454184030.0,
     "currency": "USD",
     "supports": [],
     "resistances": [],
@@ -22757,332 +22757,6 @@
     "is_new_danger": false
   },
   {
-    "symbol": "ADI",
-    "name": "Analog Devices Inc. Common Stock",
-    "market": "US",
-    "close": 333.1099853515625,
-    "benchmark_date": "2026-11-25",
-    "market_cap_usd": 161411179219.0,
-    "currency": "USD",
-    "supports": [
-      {
-        "dir": "S",
-        "lo": 300.56,
-        "hi": 300.91,
-        "width": 0.35,
-        "atr_max": 10.4186,
-        "touches": [
-          {
-            "date": "2026-03-19",
-            "price": 300.91
-          },
-          {
-            "date": "2026-03-30",
-            "price": 300.56
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2026-03-19",
-        "last_touch": "2026-03-30",
-        "breaks_between": 0,
-        "worst_between": 307.44000244140625,
-        "breaks_after": 0,
-        "worst_after": 312.95001220703125,
-        "weekly_same_price": true,
-        "distance": 0.107009,
-        "position": "above",
-        "flipped": false,
-        "crossed_edge": false
-      },
-      {
-        "dir": "S",
-        "lo": 270.14,
-        "hi": 270.46,
-        "width": 0.32,
-        "atr_max": 6.2643,
-        "touches": [
-          {
-            "date": "2025-12-17",
-            "price": 270.14
-          },
-          {
-            "date": "2026-01-02",
-            "price": 270.46
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2025-12-17",
-        "last_touch": "2026-01-02",
-        "breaks_between": 0,
-        "worst_between": 271.20001220703125,
-        "breaks_after": 0,
-        "worst_after": 277.2900085449219,
-        "weekly_same_price": false,
-        "distance": 0.231642,
-        "position": "above",
-        "flipped": false,
-        "crossed_edge": false
-      },
-      {
-        "dir": "S",
-        "lo": 224.71,
-        "hi": 228.11,
-        "width": 3.4,
-        "atr_max": 6.0093,
-        "touches": [
-          {
-            "date": "2025-08-20",
-            "price": 228.11
-          },
-          {
-            "date": "2025-10-10",
-            "price": 224.71
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2025-08-20",
-        "last_touch": "2025-10-10",
-        "breaks_between": 0,
-        "worst_between": 233.75,
-        "breaks_after": 0,
-        "worst_after": 225.1999969482422,
-        "weekly_same_price": false,
-        "distance": 0.460304,
-        "position": "above",
-        "flipped": false,
-        "crossed_edge": false
-      }
-    ],
-    "resistances": [
-      {
-        "dir": "R",
-        "lo": 422.67,
-        "hi": 433.72,
-        "width": 11.05,
-        "atr_max": 16.2857,
-        "touches": [
-          {
-            "date": "2026-10-06",
-            "price": 422.67
-          },
-          {
-            "date": "2026-11-02",
-            "price": 433.72
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2026-10-06",
-        "last_touch": "2026-11-02",
-        "breaks_between": 0,
-        "worst_between": 433.2799987792969,
-        "breaks_after": 0,
-        "worst_after": 419.7900085449219,
-        "weekly_same_price": false,
-        "distance": 0.211891,
-        "position": "below",
-        "flipped": false,
-        "crossed_edge": false
-      },
-      {
-        "dir": "R",
-        "lo": 435.72,
-        "hi": 445.91,
-        "width": 10.19,
-        "atr_max": 19.6264,
-        "touches": [
-          {
-            "date": "2026-05-13",
-            "price": 435.72
-          },
-          {
-            "date": "2026-06-03",
-            "price": 439.7
-          },
-          {
-            "date": "2026-06-22",
-            "price": 445.91
-          }
-        ],
-        "n_touches": 3,
-        "first_touch": "2026-05-13",
-        "last_touch": "2026-06-22",
-        "breaks_between": 0,
-        "worst_between": 437.6700134277344,
-        "breaks_after": 0,
-        "worst_after": 433.2799987792969,
-        "weekly_same_price": true,
-        "distance": 0.235495,
-        "position": "below",
-        "flipped": false,
-        "crossed_edge": false
-      }
-    ],
-    "flipped_supports": [
-      {
-        "dir": "R",
-        "lo": 248.83,
-        "hi": 252.0,
-        "width": 3.17,
-        "atr_max": 6.5136,
-        "touches": [
-          {
-            "date": "2025-09-18",
-            "price": 252.0
-          },
-          {
-            "date": "2025-10-21",
-            "price": 248.83
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2025-09-18",
-        "last_touch": "2025-10-21",
-        "breaks_between": 0,
-        "worst_between": 248.61000061035156,
-        "breaks_after": 252,
-        "worst_after": 445.4800109863281,
-        "weekly_same_price": false,
-        "distance": 0.321865,
-        "position": "crossed_above",
-        "flipped": true,
-        "crossed_edge": false
-      },
-      {
-        "dir": "R",
-        "lo": 247.1,
-        "hi": 247.73,
-        "width": 0.63,
-        "atr_max": 6.7293,
-        "touches": [
-          {
-            "date": "2025-02-20",
-            "price": 247.1
-          },
-          {
-            "date": "2025-07-08",
-            "price": 247.73
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2025-02-20",
-        "last_touch": "2025-07-08",
-        "breaks_between": 0,
-        "worst_between": 245.67999267578125,
-        "breaks_after": 264,
-        "worst_after": 445.4800109863281,
-        "weekly_same_price": true,
-        "distance": 0.344649,
-        "position": "crossed_above",
-        "flipped": true,
-        "crossed_edge": false
-      }
-    ],
-    "flipped_resistances": [
-      {
-        "dir": "S",
-        "lo": 341.32,
-        "hi": 354.72,
-        "width": 13.4,
-        "atr_max": 20.135,
-        "touches": [
-          {
-            "date": "2026-04-15",
-            "price": 341.32
-          },
-          {
-            "date": "2026-07-29",
-            "price": 352.73
-          },
-          {
-            "date": "2026-09-03",
-            "price": 348.0
-          },
-          {
-            "date": "2026-11-06",
-            "price": 354.72
-          }
-        ],
-        "n_touches": 4,
-        "first_touch": "2026-04-15",
-        "last_touch": "2026-11-06",
-        "breaks_between": 0,
-        "worst_between": 353.3699951171875,
-        "breaks_after": 2,
-        "worst_after": 312.95001220703125,
-        "weekly_same_price": true,
-        "distance": 0.024054,
-        "position": "crossed_below",
-        "flipped": true,
-        "crossed_edge": false
-      },
-      {
-        "dir": "S",
-        "lo": 366.72,
-        "hi": 371.09,
-        "width": 4.37,
-        "atr_max": 19.4714,
-        "touches": [
-          {
-            "date": "2026-07-07",
-            "price": 371.09
-          },
-          {
-            "date": "2026-07-17",
-            "price": 366.72
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2026-07-07",
-        "last_touch": "2026-07-17",
-        "breaks_between": 0,
-        "worst_between": 380.5299987792969,
-        "breaks_after": 22,
-        "worst_after": 312.95001220703125,
-        "weekly_same_price": false,
-        "distance": 0.09165,
-        "position": "crossed_below",
-        "flipped": true,
-        "crossed_edge": false
-      },
-      {
-        "dir": "S",
-        "lo": 381.22,
-        "hi": 383.32,
-        "width": 2.1,
-        "atr_max": 20.7521,
-        "touches": [
-          {
-            "date": "2026-05-21",
-            "price": 381.22
-          },
-          {
-            "date": "2026-06-09",
-            "price": 383.32
-          }
-        ],
-        "n_touches": 2,
-        "first_touch": "2026-05-21",
-        "last_touch": "2026-06-09",
-        "breaks_between": 0,
-        "worst_between": 397.07000732421875,
-        "breaks_after": 47,
-        "worst_after": 312.95001220703125,
-        "weekly_same_price": false,
-        "distance": 0.1262,
-        "position": "crossed_below",
-        "flipped": true,
-        "crossed_edge": false
-      }
-    ],
-    "nearest_support_distance": 0.107009,
-    "nearest_resistance_distance": 0.024054,
-    "in_support_danger": false,
-    "in_resistance_danger": true,
-    "has_valid_zone": true,
-    "error": null,
-    "is_new_danger": false
-  },
-  {
     "symbol": "SCHW",
     "name": "Charles Schwab Corporation (The) Common Stock",
     "market": "US",
@@ -23572,6 +23246,332 @@
     "nearest_resistance_distance": 0.067868,
     "in_support_danger": false,
     "in_resistance_danger": false,
+    "has_valid_zone": true,
+    "error": null,
+    "is_new_danger": false
+  },
+  {
+    "symbol": "ADI",
+    "name": "Analog Devices Inc. Common Stock",
+    "market": "US",
+    "close": 333.1099853515625,
+    "benchmark_date": "2026-11-25",
+    "market_cap_usd": 160781926552.0,
+    "currency": "USD",
+    "supports": [
+      {
+        "dir": "S",
+        "lo": 300.56,
+        "hi": 300.91,
+        "width": 0.35,
+        "atr_max": 10.4186,
+        "touches": [
+          {
+            "date": "2026-03-19",
+            "price": 300.91
+          },
+          {
+            "date": "2026-03-30",
+            "price": 300.56
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2026-03-19",
+        "last_touch": "2026-03-30",
+        "breaks_between": 0,
+        "worst_between": 307.44000244140625,
+        "breaks_after": 0,
+        "worst_after": 312.95001220703125,
+        "weekly_same_price": true,
+        "distance": 0.107009,
+        "position": "above",
+        "flipped": false,
+        "crossed_edge": false
+      },
+      {
+        "dir": "S",
+        "lo": 270.14,
+        "hi": 270.46,
+        "width": 0.32,
+        "atr_max": 6.2643,
+        "touches": [
+          {
+            "date": "2025-12-17",
+            "price": 270.14
+          },
+          {
+            "date": "2026-01-02",
+            "price": 270.46
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2025-12-17",
+        "last_touch": "2026-01-02",
+        "breaks_between": 0,
+        "worst_between": 271.20001220703125,
+        "breaks_after": 0,
+        "worst_after": 277.2900085449219,
+        "weekly_same_price": false,
+        "distance": 0.231642,
+        "position": "above",
+        "flipped": false,
+        "crossed_edge": false
+      },
+      {
+        "dir": "S",
+        "lo": 224.71,
+        "hi": 228.11,
+        "width": 3.4,
+        "atr_max": 6.0093,
+        "touches": [
+          {
+            "date": "2025-08-20",
+            "price": 228.11
+          },
+          {
+            "date": "2025-10-10",
+            "price": 224.71
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2025-08-20",
+        "last_touch": "2025-10-10",
+        "breaks_between": 0,
+        "worst_between": 233.75,
+        "breaks_after": 0,
+        "worst_after": 225.1999969482422,
+        "weekly_same_price": false,
+        "distance": 0.460304,
+        "position": "above",
+        "flipped": false,
+        "crossed_edge": false
+      }
+    ],
+    "resistances": [
+      {
+        "dir": "R",
+        "lo": 422.67,
+        "hi": 433.72,
+        "width": 11.05,
+        "atr_max": 16.2857,
+        "touches": [
+          {
+            "date": "2026-10-06",
+            "price": 422.67
+          },
+          {
+            "date": "2026-11-02",
+            "price": 433.72
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2026-10-06",
+        "last_touch": "2026-11-02",
+        "breaks_between": 0,
+        "worst_between": 433.2799987792969,
+        "breaks_after": 0,
+        "worst_after": 419.7900085449219,
+        "weekly_same_price": false,
+        "distance": 0.211891,
+        "position": "below",
+        "flipped": false,
+        "crossed_edge": false
+      },
+      {
+        "dir": "R",
+        "lo": 435.72,
+        "hi": 445.91,
+        "width": 10.19,
+        "atr_max": 19.6264,
+        "touches": [
+          {
+            "date": "2026-05-13",
+            "price": 435.72
+          },
+          {
+            "date": "2026-06-03",
+            "price": 439.7
+          },
+          {
+            "date": "2026-06-22",
+            "price": 445.91
+          }
+        ],
+        "n_touches": 3,
+        "first_touch": "2026-05-13",
+        "last_touch": "2026-06-22",
+        "breaks_between": 0,
+        "worst_between": 437.6700134277344,
+        "breaks_after": 0,
+        "worst_after": 433.2799987792969,
+        "weekly_same_price": true,
+        "distance": 0.235495,
+        "position": "below",
+        "flipped": false,
+        "crossed_edge": false
+      }
+    ],
+    "flipped_supports": [
+      {
+        "dir": "R",
+        "lo": 248.83,
+        "hi": 252.0,
+        "width": 3.17,
+        "atr_max": 6.5136,
+        "touches": [
+          {
+            "date": "2025-09-18",
+            "price": 252.0
+          },
+          {
+            "date": "2025-10-21",
+            "price": 248.83
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2025-09-18",
+        "last_touch": "2025-10-21",
+        "breaks_between": 0,
+        "worst_between": 248.61000061035156,
+        "breaks_after": 252,
+        "worst_after": 445.4800109863281,
+        "weekly_same_price": false,
+        "distance": 0.321865,
+        "position": "crossed_above",
+        "flipped": true,
+        "crossed_edge": false
+      },
+      {
+        "dir": "R",
+        "lo": 247.1,
+        "hi": 247.73,
+        "width": 0.63,
+        "atr_max": 6.7293,
+        "touches": [
+          {
+            "date": "2025-02-20",
+            "price": 247.1
+          },
+          {
+            "date": "2025-07-08",
+            "price": 247.73
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2025-02-20",
+        "last_touch": "2025-07-08",
+        "breaks_between": 0,
+        "worst_between": 245.67999267578125,
+        "breaks_after": 264,
+        "worst_after": 445.4800109863281,
+        "weekly_same_price": true,
+        "distance": 0.344649,
+        "position": "crossed_above",
+        "flipped": true,
+        "crossed_edge": false
+      }
+    ],
+    "flipped_resistances": [
+      {
+        "dir": "S",
+        "lo": 341.32,
+        "hi": 354.72,
+        "width": 13.4,
+        "atr_max": 20.135,
+        "touches": [
+          {
+            "date": "2026-04-15",
+            "price": 341.32
+          },
+          {
+            "date": "2026-07-29",
+            "price": 352.73
+          },
+          {
+            "date": "2026-09-03",
+            "price": 348.0
+          },
+          {
+            "date": "2026-11-06",
+            "price": 354.72
+          }
+        ],
+        "n_touches": 4,
+        "first_touch": "2026-04-15",
+        "last_touch": "2026-11-06",
+        "breaks_between": 0,
+        "worst_between": 353.3699951171875,
+        "breaks_after": 2,
+        "worst_after": 312.95001220703125,
+        "weekly_same_price": true,
+        "distance": 0.024054,
+        "position": "crossed_below",
+        "flipped": true,
+        "crossed_edge": false
+      },
+      {
+        "dir": "S",
+        "lo": 366.72,
+        "hi": 371.09,
+        "width": 4.37,
+        "atr_max": 19.4714,
+        "touches": [
+          {
+            "date": "2026-07-07",
+            "price": 371.09
+          },
+          {
+            "date": "2026-07-17",
+            "price": 366.72
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2026-07-07",
+        "last_touch": "2026-07-17",
+        "breaks_between": 0,
+        "worst_between": 380.5299987792969,
+        "breaks_after": 22,
+        "worst_after": 312.95001220703125,
+        "weekly_same_price": false,
+        "distance": 0.09165,
+        "position": "crossed_below",
+        "flipped": true,
+        "crossed_edge": false
+      },
+      {
+        "dir": "S",
+        "lo": 381.22,
+        "hi": 383.32,
+        "width": 2.1,
+        "atr_max": 20.7521,
+        "touches": [
+          {
+            "date": "2026-05-21",
+            "price": 381.22
+          },
+          {
+            "date": "2026-06-09",
+            "price": 383.32
+          }
+        ],
+        "n_touches": 2,
+        "first_touch": "2026-05-21",
+        "last_touch": "2026-06-09",
+        "breaks_between": 0,
+        "worst_between": 397.07000732421875,
+        "breaks_after": 47,
+        "worst_after": 312.95001220703125,
+        "weekly_same_price": false,
+        "distance": 0.1262,
+        "position": "crossed_below",
+        "flipped": true,
+        "crossed_edge": false
+      }
+    ],
+    "nearest_support_distance": 0.107009,
+    "nearest_resistance_distance": 0.024054,
+    "in_support_danger": false,
+    "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
     "is_new_danger": false
@@ -27483,7 +27483,7 @@
     "market": "US",
     "close": 235.64999389648438,
     "benchmark_date": "2026-11-25",
-    "market_cap_usd": 132195547957.0,
+    "market_cap_usd": 132194109968.0,
     "currency": "USD",
     "supports": [],
     "resistances": [],
@@ -50391,7 +50391,7 @@
     "market": "US",
     "close": 172.22000122070312,
     "benchmark_date": "2026-11-25",
-    "market_cap_usd": 78216269037.0,
+    "market_cap_usd": 77948614072.0,
     "currency": "USD",
     "supports": [
       {

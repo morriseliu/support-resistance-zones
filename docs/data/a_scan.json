@@ -5133,7 +5133,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600054",
@@ -6325,7 +6325,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600060",
@@ -6827,7 +6827,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600062",
@@ -7036,7 +7036,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600064",
@@ -12713,7 +12713,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600131",
@@ -13831,7 +13831,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600150",
@@ -14609,7 +14609,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600160",
@@ -14999,7 +14999,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600171",
@@ -16368,7 +16368,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600186",
@@ -17089,7 +17089,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600196",
@@ -21303,7 +21303,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600276",
@@ -24909,7 +24909,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600330",
@@ -25252,7 +25252,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600331",
@@ -26512,7 +26512,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600346",
@@ -28003,7 +28003,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600360",
@@ -29797,7 +29797,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600378",
@@ -33097,7 +33097,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600416",
@@ -35171,7 +35171,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600452",
@@ -35531,7 +35531,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600458",
@@ -37751,7 +37751,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600489",
@@ -38880,7 +38880,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600501",
@@ -41679,7 +41679,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600546",
@@ -42316,7 +42316,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600549",
@@ -43143,7 +43143,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600559",
@@ -44369,7 +44369,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600580",
@@ -44629,7 +44629,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600583",
@@ -46347,7 +46347,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600597",
@@ -49361,7 +49361,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600637",
@@ -49725,7 +49725,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600640",
@@ -50179,7 +50179,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600642",
@@ -51067,7 +51067,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600660",
@@ -52116,7 +52116,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600685",
@@ -52318,7 +52318,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600686",
@@ -55054,7 +55054,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600718",
@@ -55688,7 +55688,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600732",
@@ -56862,7 +56862,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600746",
@@ -57060,7 +57060,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600750",
@@ -57333,7 +57333,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600754",
@@ -60189,7 +60189,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600780",
@@ -60597,7 +60597,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600789",
@@ -60811,7 +60811,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600795",
@@ -63178,7 +63178,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600845",
@@ -63383,7 +63383,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600846",
@@ -64444,7 +64444,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600861",
@@ -69105,7 +69105,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600897",
@@ -72548,7 +72548,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600956",
@@ -72892,7 +72892,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600961",
@@ -74865,7 +74865,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600987",
@@ -76507,7 +76507,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600998",
@@ -76759,7 +76759,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "600999",
@@ -82751,7 +82751,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601111",
@@ -83149,7 +83149,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601121",
@@ -83321,7 +83321,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601123",
@@ -84453,7 +84453,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601137",
@@ -84885,7 +84885,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601139",
@@ -85604,7 +85604,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601163",
@@ -88011,7 +88011,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601225",
@@ -88450,7 +88450,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601229",
@@ -89639,7 +89639,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601298",
@@ -94083,7 +94083,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601598",
@@ -95678,7 +95678,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601611",
@@ -98843,7 +98843,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601727",
@@ -99023,7 +99023,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601728",
@@ -104404,7 +104404,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601898",
@@ -107191,7 +107191,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601963",
@@ -108535,7 +108535,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601990",
@@ -108766,7 +108766,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "601995",
@@ -111729,7 +111729,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603027",
@@ -112072,7 +112072,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603033",
@@ -112683,7 +112683,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603043",
@@ -115166,7 +115166,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603078",
@@ -116784,7 +116784,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603099",
@@ -119685,7 +119685,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603129",
@@ -120226,7 +120226,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603156",
@@ -121563,7 +121563,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603170",
@@ -122336,7 +122336,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603181",
@@ -123392,7 +123392,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603195",
@@ -124011,7 +124011,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603200",
@@ -127264,7 +127264,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603236",
@@ -129314,7 +129314,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603279",
@@ -130139,7 +130139,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603288",
@@ -130797,7 +130797,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603297",
@@ -131376,7 +131376,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603299",
@@ -133108,7 +133108,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603317",
@@ -133892,7 +133892,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603333",
@@ -136030,7 +136030,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603368",
@@ -136965,7 +136965,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603389",
@@ -138436,7 +138436,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603416",
@@ -141237,7 +141237,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603515",
@@ -141695,7 +141695,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603517",
@@ -142484,7 +142484,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603533",
@@ -142868,7 +142868,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603556",
@@ -143712,7 +143712,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603583",
@@ -144620,7 +144620,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603596",
@@ -145635,7 +145635,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603608",
@@ -145904,7 +145904,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603609",
@@ -151711,7 +151711,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603712",
@@ -154355,7 +154355,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603800",
@@ -155908,7 +155908,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603855",
@@ -156218,7 +156218,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603858",
@@ -156939,7 +156939,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603868",
@@ -161296,7 +161296,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603929",
@@ -163260,7 +163260,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603983",
@@ -164293,7 +164293,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603990",
@@ -165220,7 +165220,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "603995",
@@ -167719,7 +167719,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "605090",
@@ -169351,7 +169351,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "605123",
@@ -173608,7 +173608,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "605319",
@@ -173968,7 +173968,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "605338",
@@ -174253,7 +174253,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "605358",
@@ -175176,7 +175176,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "605488",
@@ -177279,7 +177279,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000021",
@@ -179392,7 +179392,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000049",
@@ -179978,7 +179978,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000061",
@@ -185041,7 +185041,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000426",
@@ -185473,7 +185473,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000498",
@@ -185905,7 +185905,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000506",
@@ -186170,7 +186170,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000513",
@@ -186773,7 +186773,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000528",
@@ -187592,7 +187592,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000537",
@@ -192490,7 +192490,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000623",
@@ -192925,7 +192925,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000628",
@@ -193634,7 +193634,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000657",
@@ -195275,7 +195275,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000683",
@@ -196071,7 +196071,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000688",
@@ -199531,7 +199531,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000756",
@@ -201207,7 +201207,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000791",
@@ -207930,7 +207930,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000887",
@@ -209096,7 +209096,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000901",
@@ -209281,7 +209281,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000902",
@@ -209509,7 +209509,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000905",
@@ -210625,7 +210625,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000923",
@@ -211758,7 +211758,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000951",
@@ -214858,7 +214858,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "000983",
@@ -218180,7 +218180,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001270",
@@ -219409,7 +219409,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001288",
@@ -219846,7 +219846,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001298",
@@ -220840,7 +220840,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001314",
@@ -221193,7 +221193,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001323",
@@ -222539,7 +222539,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001359",
@@ -222803,7 +222803,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "001365",
@@ -226227,7 +226227,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002008",
@@ -235162,7 +235162,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002097",
@@ -235987,7 +235987,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002115",
@@ -236234,7 +236234,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002119",
@@ -238752,7 +238752,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002142",
@@ -240860,7 +240860,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002158",
@@ -242126,7 +242126,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002171",
@@ -243045,7 +243045,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002180",
@@ -244198,7 +244198,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002192",
@@ -244512,7 +244512,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002194",
@@ -244759,7 +244759,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002202",
@@ -245679,7 +245679,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002214",
@@ -248212,7 +248212,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002241",
@@ -248758,7 +248758,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002244",
@@ -249203,7 +249203,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002246",
@@ -250060,7 +250060,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002254",
@@ -250203,7 +250203,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002258",
@@ -251184,7 +251184,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002267",
@@ -251393,7 +251393,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002268",
@@ -252235,7 +252235,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002275",
@@ -253173,7 +253173,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002284",
@@ -253550,7 +253550,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002289",
@@ -256804,7 +256804,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002326",
@@ -257093,7 +257093,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002332",
@@ -259141,7 +259141,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002350",
@@ -260578,7 +260578,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002361",
@@ -260946,7 +260946,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002364",
@@ -261281,7 +261281,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002368",
@@ -262960,7 +262960,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002382",
@@ -263401,7 +263401,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002387",
@@ -263614,7 +263614,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002389",
@@ -265517,7 +265517,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002413",
@@ -265902,7 +265902,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002414",
@@ -268399,7 +268399,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002436",
@@ -268777,7 +268777,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002439",
@@ -269548,7 +269548,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002446",
@@ -269732,7 +269732,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002448",
@@ -270980,7 +270980,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002461",
@@ -271771,7 +271771,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002466",
@@ -272574,7 +272574,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002475",
@@ -272583,7 +272583,7 @@
     "market": "A",
     "close": 50.6,
     "benchmark_date": "2026-11-27",
-    "market_cap_yi": 3919.34,
+    "market_cap_yi": 3919.43,
     "currency": "CNY",
     "supports": [
       {
@@ -272905,7 +272905,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002484",
@@ -274620,7 +274620,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002508",
@@ -277306,7 +277306,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002539",
@@ -278610,7 +278610,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002550",
@@ -280195,7 +280195,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002565",
@@ -282308,7 +282308,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002595",
@@ -282837,7 +282837,7 @@
     "market": "A",
     "close": 10.58,
     "benchmark_date": "2026-11-27",
-    "market_cap_yi": 864.92,
+    "market_cap_yi": 864.93,
     "currency": "CNY",
     "supports": [
       {
@@ -283991,7 +283991,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002608",
@@ -284109,7 +284109,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002611",
@@ -285232,7 +285232,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002631",
@@ -287208,7 +287208,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002651",
@@ -288793,7 +288793,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002675",
@@ -289018,7 +289018,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002683",
@@ -290347,7 +290347,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002708",
@@ -291594,7 +291594,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002724",
@@ -293366,7 +293366,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002747",
@@ -295190,7 +295190,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002785",
@@ -296287,7 +296287,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002810",
@@ -296618,7 +296618,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002812",
@@ -299204,7 +299204,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002842",
@@ -300119,7 +300119,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002859",
@@ -300517,7 +300517,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002867",
@@ -301201,7 +301201,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002884",
@@ -301867,7 +301867,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002895",
@@ -303108,7 +303108,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002906",
@@ -303305,7 +303305,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002911",
@@ -305515,7 +305515,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002935",
@@ -305805,7 +305805,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002938",
@@ -307318,7 +307318,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002947",
@@ -307734,7 +307734,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002955",
@@ -308196,7 +308196,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002957",
@@ -309073,7 +309073,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002961",
@@ -309815,7 +309815,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002969",
@@ -311985,7 +311985,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002985",
@@ -312405,7 +312405,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002988",
@@ -312777,7 +312777,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002990",
@@ -312920,7 +312920,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "002993",
@@ -313863,7 +313863,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "003013",
@@ -314044,7 +314044,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "003018",
@@ -315326,7 +315326,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "003043",
@@ -316395,7 +316395,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300006",
@@ -322067,7 +322067,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300065",
@@ -322407,7 +322407,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300077",
@@ -322827,7 +322827,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300085",
@@ -324438,7 +324438,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300118",
@@ -325162,7 +325162,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300124",
@@ -325913,7 +325913,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300131",
@@ -326170,7 +326170,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300133",
@@ -327322,7 +327322,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300139",
@@ -327716,7 +327716,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300143",
@@ -330224,7 +330224,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300188",
@@ -330429,7 +330429,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300191",
@@ -330725,7 +330725,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300196",
@@ -332128,7 +332128,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300209",
@@ -332536,7 +332536,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300223",
@@ -333324,7 +333324,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300234",
@@ -336130,7 +336130,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300294",
@@ -338313,7 +338313,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300323",
@@ -338640,7 +338640,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300328",
@@ -339550,7 +339550,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300341",
@@ -339763,7 +339763,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300342",
@@ -342035,7 +342035,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300369",
@@ -342807,7 +342807,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300382",
@@ -344492,7 +344492,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300406",
@@ -344780,7 +344780,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300408",
@@ -350873,7 +350873,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300473",
@@ -352534,7 +352534,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300487",
@@ -356274,7 +356274,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300558",
@@ -356761,7 +356761,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300567",
@@ -358420,7 +358420,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300593",
@@ -358895,7 +358895,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300596",
@@ -360897,7 +360897,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300623",
@@ -361847,7 +361847,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300634",
@@ -362052,7 +362052,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300638",
@@ -363433,7 +363433,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300666",
@@ -364215,7 +364215,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300676",
@@ -364939,7 +364939,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300679",
@@ -365123,7 +365123,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300682",
@@ -370144,7 +370144,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300747",
@@ -370644,7 +370644,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300750",
@@ -372232,7 +372232,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300765",
@@ -372488,7 +372488,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300766",
@@ -373549,7 +373549,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300772",
@@ -373946,7 +373946,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300775",
@@ -375536,7 +375536,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300790",
@@ -376723,7 +376723,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300815",
@@ -377869,7 +377869,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300834",
@@ -378746,7 +378746,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300843",
@@ -379244,7 +379244,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300850",
@@ -381792,7 +381792,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300896",
@@ -382009,7 +382009,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300900",
@@ -382189,7 +382189,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300903",
@@ -383277,7 +383277,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300919",
@@ -383432,7 +383432,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300926",
@@ -385050,7 +385050,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300972",
@@ -385327,7 +385327,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "300975",
@@ -387855,7 +387855,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301013",
@@ -388291,7 +388291,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301018",
@@ -390527,7 +390527,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301071",
@@ -392546,7 +392546,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301099",
@@ -392709,7 +392709,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301101",
@@ -393561,7 +393561,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301127",
@@ -394190,7 +394190,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301150",
@@ -394450,7 +394450,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301153",
@@ -394630,7 +394630,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301155",
@@ -399748,7 +399748,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301238",
@@ -400129,7 +400129,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301248",
@@ -400940,7 +400940,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301263",
@@ -402108,7 +402108,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301282",
@@ -402993,7 +402993,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301292",
@@ -404529,7 +404529,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301312",
@@ -406356,7 +406356,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301328",
@@ -406515,7 +406515,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301338",
@@ -406935,7 +406935,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301345",
@@ -407377,7 +407377,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301357",
@@ -408833,7 +408833,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301371",
@@ -409347,7 +409347,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301376",
@@ -410058,7 +410058,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301382",
@@ -411712,7 +411712,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301486",
@@ -412191,7 +412191,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301488",
@@ -412447,7 +412447,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301489",
@@ -413076,7 +413076,7 @@
     "in_resistance_danger": false,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301510",
@@ -415208,7 +415208,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301563",
@@ -420565,7 +420565,7 @@
     "in_resistance_danger": true,
     "has_valid_zone": true,
     "error": null,
-    "is_new_danger": true
+    "is_new_danger": false
   },
   {
     "symbol": "301680",
